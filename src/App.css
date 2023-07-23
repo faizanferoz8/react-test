@@ -1,0 +1,43 @@
+.app-body{
+  display: flex;
+  gap: 10px;
+}
+
+.left-section{
+  display: flex;
+  flex-direction: column;
+  background-color: #04544c;
+  max-width: 40%;
+  height: 1200px;
+}
+
+
+.left-section-logo{
+  max-width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.left-customer-button{
+   margin-left: 10px;  
+}
+
+
+
+.right-section{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.right-section-heading{
+  border: 1px solid black;
+  padding-left: 10px;
+  border-radius: 5px;
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.action-buttons{
+  justify-content: space-evenly;
+}
